@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.6.0",
+    "generators": {
+      "backend": {
+        "generatorName": "typescript-axios",
+        "output": "#{cwd}/src/sdk/backend",
+        "inputSpec": "http://localhost:3000/api-json",
+        "model-name-prefix": "I",
+        "remove-operation-id-prefix": true,
+        "additional-properties": {
+          "typescriptThreePlus": true,
+          "prefixParameterInterfaces": false,
+          "supportsES6": true,
+          "useSingleRequestParameter": true
+        }
+      }
+    }
+  }
+}

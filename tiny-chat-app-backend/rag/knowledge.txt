@@ -1,0 +1,11 @@
+RAG knowledge file
+
+Write here the exact domain knowledge you want the assistant to use.
+
+Example:
+- Pasta recipe: Boil water, add salt, cook pasta for 9 minutes.
+- Tomato sauce: Saute garlic, add tomato, simmer for 20 minutes.
+
+Notes:
+- The API will only read this file for local RAG context.
+- Keep entries clear and structured.
